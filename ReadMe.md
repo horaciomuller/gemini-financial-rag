@@ -2,6 +2,8 @@
 
 This project demonstrates the creation of a simple Retrieval Augmented Gener ation (RAG) system using Spring Boot, PDFBox, and Google's Gemini model. Its primary goal is to provide answers to questions about financial information contained within a PDF file.
 
+![Captura de Tela 2025-02-15 às 19 57 00](https://github.com/user-attachments/assets/436440be-b470-45a4-92b8-747a617c2320)
+
 ## Features
 
 - **PDF Text Extraction:** The project leverages the PDFBox library to extract text from a PDF file, which serves as the context for user queries.
@@ -103,6 +105,4 @@ curl "http://localhost:8080/answer?question=$encoded_question"
 - Implement a more user-friendly interface to facilitate interaction with the RAG.
 - Utilize more advanced information retrieval techniques to improve the accuracy of responses.
 - Integrate with other data sources to provide more comprehensive information.
-
-Feel free to modify and adapt this project to your needs.
 
