@@ -1,6 +1,6 @@
 # RAG for Financial Information
 
-This project demonstrates the creation of a simple Retrieval Augmented Generation (RAG) system using Spring Boot, PDFBox, and Google's Gemini model. Its primary goal is to provide answers to questions about financial information contained within a PDF file.
+This project demonstrates the creation of a simple Retrieval Augmented Gener ation (RAG) system using Spring Boot, PDFBox, and Google's Gemini model. Its primary goal is to provide answers to questions about financial information contained within a PDF file.
 
 ## Features
 
