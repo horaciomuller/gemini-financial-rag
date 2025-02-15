@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>RAG App</title>
+</head>
+<body>
+<h1>Pergunte ao seu PDF:</h1>
+<form th:action="@{/ask}" method="post">
+    <label for="question">Pergunta:</label><br>
+    <textarea id="question" name="question" rows="4" cols="50"></textarea><br><br>
+    <button type="submit">Enviar</button>
+</form>
+
+<div th:if="${answer}">
+    <h2>Resposta:</h2>
+    <p th:text="${answer}"></p>
+    <p>Pergunta: <span th:text="${question}"></span></p>
+</div>
+</body>
+</html>
